@@ -1,0 +1,462 @@
+<!doctype html>
+<html>
+<head>
+  <title>Cricket world</title>
+  <meta name="description" content="">
+
+  <!-- Mobile viewport optimized -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet"/>
+  <link href="bootstrap/css/bootstrap-glyphicons.css" rel="stylesheet"/>
+
+  <!-- Custom CSS -->
+  <link href="bootstrap/css/styles.css" rel="stylesheet"/>
+
+  <!-- Include Modernizr in the head, before any other Javascript -->
+  <script src="bootstrap/js/modernizr-2.6.2.min.js"></script>
+
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </head>
+
+</head>
+<body>
+
+<!--div class="left_bar1"></div>
+<div class="right_bar1"></div-->
+
+<div class="container-fluid clearfix">
+<div class="row" id="main">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    
+        <!--img src="images-->
+
+        <div class="navbar-header" id="header_nav">
+          <a class="navbar-brand pull-left" href="/"><img src="images/c_logo.png" alt="Cricket Logo" height="50px"></a>
+          <!--button that will pop up when the nav bar collapse-->
+          <button class="navbar-toggle collapsed" data-target="#contain-nav" data-toggle="collapse" type="button">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button><!--Button closes here-->
+        </div><!--Nav bar ends here-->
+
+
+
+        <div class="collapse navbar-collapse" id="contain-nav">
+          <ul class="nav navbar-nav" id="navigation-items">
+            <li class="active">
+              <a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a>
+            </li>
+            <li>
+              <a href=""><span class="glyphicon glyphicon-picture"></span>&nbsp;Gallery</a>
+            </li>
+            
+            <li class="hidden-sm hidden-md">
+              <a href="#"><span class="glyphicon glyphicon-scale"></span>&nbsp;Follow Us</a>
+            </li>
+            <li>
+              <a href="about.html"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;About</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav account_setting pull-right">
+            <li class="dropdown" >
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="navigation-items1">
+                <span class="glyphicon glyphicon-user"></span><b>&nbsp;My Account</b><strong class="caret"></strong>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#"><span class="glyphicon glyphicon-wrench"></span>&nbsp;Setting</a></li>
+                <li><a href="#my_modal" role="button" data-toggle="modal"><span class="glyphicon glyphicon-pushpin"></span>&nbsp;Register</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-refresh"></span>&nbsp;Update Profile</a></li>
+                <hr>
+                <li><a href="#"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
+              </ul>
+            </li><!--end of list items of the menu-->
+          </ul><!--end of Navbar-->
+        </div><!--End of responsive collapse-->
+
+    
+  </nav><!--Nav bar closes here-->
+  </div>
+</div><!---end of container-->
+
+  <div class="hero container">
+  
+  <div class="modal" id="my_modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+          <h2>Enter your details for Registration</h2>
+        </div><!--end of header content-->
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="col-lg-2 control-label" for="inputName"></label>
+            <div class="col-lg-12">
+              <input class="form-control" id="inputName" placeholder="Name" type="text">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-lg-2 control-label" for="inputEmail"></label>
+            <div class="col-lg-10">
+              <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-lg-2 control-label" for="inputMessage"></label>
+            <div class="col-lg-10">
+              <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+              <button class="btn btn-success pull-right" type="submit">Send!</button>
+            </div>
+          </div>
+        </form><!--end of the form-->
+      </div><!--end of modal body-->
+      <div class="modal-footer">
+      </div><!--end of modal footer-->
+    </div><!--end of modal content-->
+  </div><!--end of modal dialog-->
+  </div><!--Modal window ends here--><!--modal section ends here-->
+
+</div>
+
+
+     <div class="container-fluid" id="car">
+
+    <div class="carousel slide" id="my_carousel" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#my_carousel"></li>
+        <li data-slide-to="1" data-target="#my_carousel"></li>
+        <li data-slide-to="2" data-target="#my_carousel"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="item active" id="slide1"><!--give image-->
+          <img  src="images/dhoni.jpeg" class="img-responsive" alt="caption1"/>
+          <div class="carousel-caption">
+           <figcaption>
+            <h2>ICC 2016</h2>
+            <p>Well this touarnament has already begun...</p>
+          </figcaption>
+          </div><!--Caption ends here-->
+        </div><!--Item1 ends here-->
+
+        <div class="item" id="slide2">
+          <img src="images/quinton.jpeg" class="img-responsive" alt="caption1"/>
+          <div class="carousel-caption">
+          <figcaption>
+            <h2>Amazing Moments..</h2> 
+            <p>lets catch them live</p>
+          </figcaption>
+          </div><!--Caption ends here-->
+        </div><!--Item1 ends here-->
+
+        <div class="item" id="slide3">
+          <img src="images/dhawan.jpeg" class="img-responsive" alt="caption1"/>
+          <div class="carousel-caption">
+          <figcaption>
+            <h2>Sportsmanship</h2>
+            <p>The momoent you fear..You going to loose</p>
+          </figcaption>
+          </div><!--Caption ends here-->
+        </div><!--Item1 ends here-->
+
+      </div><!--Carousel Inner ends here-->
+      <!-- Controls -->
+      <a class="left carousel-control" data-slide="prev" href="#my_carousel"><span class="icon-prev"></span></a>
+      <a class="right carousel-control" data-slide="next" href="#my_carousel"><span class="icon-next"></span></a>
+    </div><!--Carousel ends here-->
+   </div><!--end of carosel division-->
+<!--carousel section ends here-->
+
+ <div class="container">
+    <div class="row" id="bigCallout">
+        <div class="col-12">
+
+          <div class="alert alert-success alert-block fade in" id="successAlert">
+           <button type="button" class="close" data-dismiss="alert">&times;</button>
+         
+           <h4>Success!</h4>
+           <p>All the lucky winners will be declared soon. Keep yourself updated.</p>
+         </div> <!--end alert -->
+
+          <!-- Visible only on small devices -->
+          <!--
+          <div class="well well-small visible-sm">
+            <a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+          </div> end well-small -->
+          <div class="well">
+            <div class="page-header">
+              <h1>Feeling Lucky !!! <small>Surprise gifts and many more waiting for you.</small></h1>
+            </div><!-- end page-header -->
+
+            <p class="lead">Good news for fans just a button away...Press the button and surely you will be a happy person </p>
+
+            <a href="" class="btn btn-large btn-primary" id="alertMe">Click a nice big button</a>
+            <a href="" class="btn btn-large btn-link">or a secondary link</a>
+          </div><!-- end well -->
+
+        </div><!-- end col-12 -->
+      </div><!-- end bigCallout -->
+      
+  
+
+
+
+ 
+      <div class="row" id="featuresHeading">
+        <div class="col-sm-12">
+          <h2 class="head">Top Highlights</h2>
+          <p class=" head lead">Watch all the highlights of recent matches.If you missed live don't miss now...</p>
+        </div><!-- end col-12 -->
+      </div><!-- end featuresHeading  -->
+      
+ <!-- <div class="row" id="featuresHeading">
+  <div class="col-12">
+    <h2>More Features</h2>
+    <p class="lead">Cornhole kitsch Williamsburg pug bicycle rights vegan. Neutra food truck occupy kitsch sustainable.</p>
+  </div>end col-12
+ </div>end featuresHeading
+ 
+ 
+ <div class="row" id="features">
+  <div class="col-sm-4 feature">
+    <div class="panel">
+      <div class="panel-heading">
+        <h3 class="panel-title">Markup with HTML5</h3>
+      </div>end panel-heading
+      <img src="images/badge_html5.jpg" alt="HTML5" class="img-circle">
+      
+      <p>90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+      
+      <a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-warning btn-block">Learn to code HTML5</a>
+    </div>end panel
+  </div>end feature
+  
+  <div class="col-sm-4 feature">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Style with CSS3</h3>
+      </div>end panel-heading
+      <img src="images/badge_css3.jpg" alt="CSS3" class="img-circle">
+      
+      <p>90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+      
+      <a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-danger btn-block">Style it up with CSS3</a>
+    </div>end panel
+  </div>end feature
+  
+  <div class="col-sm-4 feature">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Framework by Bootstrap 3</h3>
+      </div>end panel-heading
+      <img src="images/badge_bootstrap.jpg" alt="Bootstrap 3" class="img-circle">
+      
+      <p>90's authentic single-origin coffee stumptown Pinterest. Fap aesthetic dreamcatcher pickled Brooklyn irony.</p>
+      
+      <a href="http://getbootstrap.com/" target="_blank" class="btn btn-info btn-block">More Bootstrap</a>
+    </div>end panel
+  </div>end feature
+ </div>end features -->
+
+      <div class="row" id="features">
+        <div class="col-sm-4 feature">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">INDIA Vs PAKISTAN</h3>
+            </div><!-- end panel-heading -->
+            <img src="images/ind_pak.jpg" class="img-responsive" alt="">
+
+            <p>Click the given link to watch the highlights.</p>
+
+            <a href="https://www.youtube.com/watch?v=R9cqzRcc3sw" target="_blank" class="btn btn-default btn-block">Play Video</a>
+          </div><!-- end panel -->
+        </div><!-- end feature -->
+
+        <div class="col-sm-4 feature">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">AUSSIE Vs KIWI</h3>
+            </div><!-- end panel-heading -->
+            <img src="images/aus_nz.jpg" class="img-responsive" alt="">
+
+            <p>Click the given link to watch the highlights.</p>
+
+            <a href="https://youtu.be/kL2OqajDyng" target="_blank" class="btn btn-default btn-block">Play Video</a>
+          </div><!-- end panel -->
+        </div><!-- end feature -->
+
+        <div class="col-sm-4 feature">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">S.AFRICA Vs W.INDIES</h3>
+            </div><!-- end panel-heading -->
+            <img src="images/sa_wi.jpg" class="img-responsive" alt="">
+
+            <p>Click the given link to watch the highlights.</p>
+
+            <a href="https://youtu.be/3tq4rd524ls/" target="_blank" class="btn btn-default btn-block">Play Video</a>
+          </div><!-- end panel -->
+        </div><!-- end feature -->
+      </div><!-- end features -->
+
+
+
+
+<div class="row" id="moreInfo">
+<div class="col-sm-6">
+<div class="tabbable">
+<h2>Well !! Check this out folks.</h2>
+<ul class="nav nav-tabs">
+<li class="active"><a href="#tab1" data-toggle="tab">Trending</a></li>
+<li><a href="#tab2" data-toggle="tab">News Hunt</a></li>
+</ul>
+<div class="tab-content mg2">
+<div class="tab-pane active" id="tab1">
+<div class="panel panel-default">
+ <div class="panel-body">
+<h2>Virat Kohli vows infront of Sachin</h2>
+<img src="images/virat.jpg" class="img-responsive setimg" alt="">
+<p>The sensational performance given by Virat at Eden against Pakinstan had mesmerized every one.</p>
+<p>
+ He dedicated his Man Of The Match award to none other than Sachin-The God Of Cricket and Sachin too gave him a thumbs up.
+</p>
+<p>
+  Eden Garden was full of celbrities and roaring fans who were delighted after India won the match. 
+</p>
+</div><!-- panel-body -->
+</div>
+</div><!-- end tab-pane -->
+<div class="tab-pane" id="tab2">
+<div class="panel panel-default">
+ <div class="panel-body">
+<h2>All flights delayed due to Ind Pak match</h2>
+<!-- <img src="http://placehold.it/140" class="thumbnail pull-left" alt="Placeholder image"> -->
+<img src="images/flights.jpg" class="img-responsive setimg" alt="" >
+<p> Effect where shown even on Flights scheduling.
+.</p>
+<p>All flights were delayed until the Ind-Pak match got over,at Delhi Airport.</p>
+</div>
+</div>
+<!-- <hr>
+<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a Modal Window!</a> -->
+</div><!-- end tab-pane -->
+</div><!-- end tab-content -->
+</div><!-- end tabbable -->
+</div><!-- end col-sm-6 -->
+<div class="col-sm-6 mg1">
+<h4>Short History</h4>
+<div class="list-group">
+<a href="#" class="list-group-item">
+<h4 class="list-group-item-heading">Criket Evolution</h4>
+<p class="list-group-item-text">
+<ul>
+<li>Originated in England in early 70's</li>
+<li>Got widesprad in South-East Asia.</li>
+<li>Now spreading over western countries.</li>
+
+</ul></p>
+</a>
+<a href="#" class="list-group-item">
+<h4 class="list-group-item-heading">Love for the game.</h4>
+<p class="list-group-item-text">
+Toaday cricket has became one of the favourites of all the games.</p>
+<p>Differnt formats are there in cricket.</p>
+<ul>
+    <li>Test Match</li>
+    <li>50 overs Match</li>
+    <li>20 overs Match</li>
+    </ul>
+</a>
+<a href="#" class="list-group-item">
+<h4 class="list-group-item-heading">Cricket all Stars in US.</h4>
+<p class="list-group-item-text">
+In recent,to make cricket popular in west,a touarnament was organised which included retired players like Sachin,Shewag etc.</p><br>
+Well at end outcomes were positive as people appreciated the game.
+<p>Retired players who were part of this touarnament.</p>
+<ul>
+    <li>Sachin Tendulkar</li>
+    <li>Virendra Shewag</li>
+    <li>Shane Warne</li>
+    <li>and many more..</li>
+    </ul>
+</a>
+</div><!-- list-group -->
+</div><!-- end col-sm-6 -->
+</div><!-- end moreInfo -->
+
+
+
+<hr>
+
+
+      </div><!--clear class ends-->
+</div><!--container ends-->
+
+  <footer>                                                    <!--footer of the page-->
+    <div class="container">
+      <div class="row">
+      <div class="col-sm-3 foot_det">
+        <address>
+          <p><b><u>Reach Us</u></b></p>
+          <p>Headquarter</br> Delhi House,Near Sadan Marg,848114</p>
+          <p> Contact Details:</br>
+          <phone>PhoneNo:7091176483</phone></br>Email:
+          <email>deepak950dk@gmail.com</email>
+        </p>
+        </address><!--address bar closes here-->
+      </div>
+      <div class="col-sm-3 foot_det">
+        <p><b><u>Blog Rolls</u></b></p>
+          <a href="#">Documentation</a>
+          <a href="#">FeedBack</a>
+          <a href="#">Plugins</a>
+          <a href="#">Support Forum</a>
+          <a href="#">Themes</a>
+          <a href="#">WordPress blog</a>
+          <a href="#">Word Press Planet</a>
+      </div>
+      <div class="col-sm-3 foot_det">
+        <p><b><u>Current Events</u></b></p>
+        <a href="#">ICC T20 World Cup</a>
+        <a href="#">Vijay Mallya and RCB</a>
+        <a href="#">India VS Pakistan</a>
+        <a href="#">Favourites for Final</a>
+        
+      </div>
+      <div class="col-sm-3 foot_det">
+        <a href="#"><img src="images/facebook.png" alt="facebook image" height=50px width=50px/></a>
+        <p><em>Like us on facebook</em></p>
+        <a href="#"><img src="images/sub.png" alt="Subscribe Image" height=50px width=90px/></a>
+        <p><em>Subsribe to our site</em></p>
+      </div>
+    </div><!--row closes here-->
+  </div><!--container closes here-->
+  </footer><!--footer closes here-->
+
+
+<script src="http://code.jquery.com/jquery.js"></script>
+
+  <!-- If no online access, fallback to our hardcoded version of jQuery -->
+  <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+  <!-- Bootstrap JS -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="bootstrap/js/script.js"></script>
+
+  </body>
+</html>
